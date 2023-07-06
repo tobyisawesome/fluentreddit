@@ -1,3 +1,5 @@
+![image](https://github.com/tobyisawesome/fluentreddit/assets/71511385/1e07c68c-29d7-41f2-a936-3fcdf286cd63)
+
 # Fluent Reddit
 
 A CSS skin for reddit.com that makes the website look closer to Fluent Design.
@@ -9,6 +11,8 @@ You can see a live demo of the skin by installing the Stylus extension and apply
 ## Features
 
 - Modern and sleek design inspired by Fluent Design principles
+- Most icons updated to Fluent Icons.
+![image](https://github.com/tobyisawesome/fluentreddit/assets/71511385/3f24c1cb-00ad-49d0-934d-51121041a2d8)
 
 ## Installation
 
