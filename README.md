@@ -5,9 +5,11 @@
 
 A CSS skin for reddit.com that makes the website look closer to Fluent Design.
 
-## Demo
+## Download
 
-You can see a live demo of the skin by installing the Stylus extension and applying the fluentreddit.user.css file to reddit.com.
+This style can be downloaded from the Userstyles.world links. Note that both light and dark mode versions need to be used separately.
+Light: https://userstyles.world/style/10781/fluent-reddit-light
+Dark: https://userstyles.world/style/10782/fluent-reddit-dark
 
 ## Features
 
