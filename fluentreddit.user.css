@@ -1,0 +1,1510 @@
+/* ==UserStyle==
+@name           www.reddit.com - 6/30/2023, 6:43:20 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.reddit.com/") {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, button, cite, code, del, dfn, em, img, input, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-family: Segoe UI Variable Text !important;
+    text-transform: initial !important;
+}
+body {
+    font-size: 14px !important;
+    font-family: Segoe UI Variable Text !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+}
+h1  {
+font-size: 28px !important;
+font-family: Segoe UI Variable Display !important;
+font-style: normal !important;
+font-weight: 600 !important;
+line-height: 36px !important;
+}
+h2  {
+font-size: 20px !important;
+font-family: Segoe UI Variable Display !important;
+font-style: normal !important;
+font-weight: 600 !important;
+line-height: 28px !important;
+}
+h3  {
+font-size: 14px !important;
+font-family: Segoe UI Variable Text !important;
+font-style: normal !important;
+font-weight: 600 !important;
+line-height: 20px !important;
+}
+h4  {
+font-size: 14px !important;
+font-family: Segoe UI Variable Text !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: 20px !important;
+}
+p   {
+font-size: 12px !important;
+font-family: Segoe UI Variable Small !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: 16px !important;
+}
+.icon:before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: FluentSystemIcons-Regular;
+}
+.icon-upvote:before {
+    content: "";
+text-align: center;
+}
+.icon-downvote:before {
+    content: "";
+text-align: center;
+}
+.icon-upvote_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+text-align: center;
+}
+.icon-downvote_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+text-align: center;
+}
+.icon-comment:before {
+    content: "\E3D4";
+}
+.icon-award:before {
+    content: "\F672";
+}
+.icon-share:before {
+    content: "\EAA7";
+}
+.icon-save:before {
+    content: "\E191";
+}
+.icon-image_post:before {
+    content: "\E719";
+}
+.icon-link_post:before {
+    content: "\E771";
+}
+.icon-overflow_horizontal:before {
+    content: "";
+}
+.icon-search:before {
+    content: "";
+}
+.icon-best:before {
+    content: "";
+}
+.icon-best_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-hot:before {
+    content: "";
+}
+.icon-hot_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-new:before {
+    content: "";
+}
+.icon-new_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-top:before {
+    content: "";
+}
+.icon-top_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-caret_down:before {
+    content: "";
+}
+.icon-rising:before {
+    content: "";
+}
+.icon-rising_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-home_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-popular:before {
+    content: "";
+}
+.icon-popular_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-view_compact:before {
+    content: "";
+}
+.icon-view_compact_fill:before {
+    content: "󰁣";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-view_classic:before {
+    content: "";
+}
+.icon-view_classic_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-view_card:before {
+    content: "";
+}
+.icon-view_card_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-coins:before {
+    content: "";
+}
+.icon-mod:before {
+    content: "";
+}
+.icon-mod_queue:before {
+    content: "";
+}
+.icon-message:before {
+    content: "";
+}
+.icon-premium_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-premium:before {
+    content: "";
+}
+.icon-topic_activism:before {
+    content: "";
+}
+.icon-add:before {
+    content: "";
+}
+.icon-add_fill:before {
+    content: "";
+}
+.icon-notification:before {
+    content: "";
+}
+.icon-settings:before {
+    content: "";
+}
+.icon-mark_read:before {
+    content: "";
+}
+.icon-mod_mail:before {
+    content: "";
+}
+.icon-chat:before {
+    content: "";
+}
+.icon-star:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-star_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-side_menu:before {
+    content: "󰆚";
+}
+.icon-close:before {
+    content: "";
+}
+.icon-avatar_style:before {
+    content: "";
+}
+.icon-all:before {
+    content: "";
+}
+.icon-profile:before {
+    content: "";
+}
+.icon-views:before {
+    content: "";
+}
+.icon-community:before {
+    content: "";
+}
+.icon-discover:before {
+    content: "";
+}
+.icon-help:before {
+    content: "";
+}
+.icon-info:before {
+    content: "";
+}
+.icon-rules:before {
+    content: "";
+}
+.icon-tag:before {
+    content: "";
+}
+.icon-checkmark:before {
+    content: "";
+}
+.icon-logout:before {
+    content: "";
+}
+.icon-text_post:before {
+    content: "";
+}
+.icon-text_post_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-image_post_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-link_post:before {
+    content: "";
+}
+.icon-link_post_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-poll_post:before {
+    content: "";
+}
+.icon-poll_post_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-collection:before {
+    content: "";
+}
+.icon-scheduled:before {
+    content: "";
+}
+.icon-scheduled_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-edit:before {
+    content: "";
+}
+.icon-caret_up:before {
+    content: "";
+}
+.icon-clear:before {
+    content: "";
+}
+.icon-bold:before {
+    content: "";
+}
+.icon-bold_fill:before {
+    content: "\f12d";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-italic:before {
+    content: "";
+}
+.icon-strikethrough:before {
+    content: "";
+}
+.icon-code_inline:before {
+    content: "";
+}
+.icon-superscript:before {
+    content: "";
+}
+.icon-spoiler:before {
+    content: "";
+}
+.icon-text_size:before {
+    content: "";
+}
+.icon-list_bulleted:before {
+    content: "";
+}
+.icon-quote:before {
+    content: "";
+}
+.icon-code_block:before {
+    content: "";
+}
+.icon-table:before {
+    content: "";
+}
+.icon-list_numbered:before {
+    content: "";
+}
+.icon-list_numbered_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-video_post:before {
+    content: "";
+}
+.icon-italic_fill:before {
+    content: "\f1d2";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-strikethrough_fill:before {
+    content: "\f29e";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-code_inline_fill:before {
+    content: "\f162";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-superscript_fill:before {
+    content: "\f2a2";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-spoiler_fill:before {
+    content: "\f294";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-text_size_fill:before {
+    content: "\f2b6";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-list_bulleted_fill:before {
+    content: "\f1e8";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-quote_fill:before {
+    content: "\f24d";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-code_block_fill:before {
+    content: "\f160";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-table_fill:before {
+    content: "\f2ae";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-video_post_fill:before {
+    content: "\f360";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-expand:before {
+    content: "";
+}
+.icon-saved:before {
+    content: "";
+}
+.icon-hide:before {
+    content: "";
+}
+.icon-report:before {
+    content: "";
+}
+.icon-approve:before {
+    content: "";
+}
+.icon-remove:before {
+    content: "";
+}
+.icon-spam:before {
+    content: "";
+}
+.icon-statistics:before {
+    content: "";
+}
+.icon-promote_snoo:before {
+    content: "";
+}
+.icon-pin:before {
+    content: "";
+}
+.icon-pin_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-delete:before {
+    content: "";
+}
+.icon-checkbox_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-checkbox:before {
+    content: "";
+}
+.icon-lock:before {
+    content: "";
+}
+.icon-show:before {
+    content: "";
+}
+.icon-karma:before {
+    content: "";
+}
+.icon-share_ios:before {
+    content: "";
+}
+.icon-distinguish:before {
+    content: "";
+}
+.icon-karma_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-home:before {
+    content: "";
+}
+.icon-topic_videogaming:before {
+    content: "";
+}
+.icon-topic_sports:before {
+    content: "";
+}
+.icon-topic_business:before {
+    content: "";
+}
+.icon-topic_crypto:before {
+    content: "";
+}
+.icon-topic_television:before {
+    content: "";
+}
+.icon-topic_celebrity:before {
+    content: "";
+}
+.icon-community_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-community:before {
+    content: "";
+}
+.icon-qr_code:before {
+    content: "";
+}
+.icon-user:before {
+    content: "";
+}
+.icon-cake:before {
+    content: "";
+}
+.icon-cake_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-user_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-crosspost:before {
+    content: "";
+}
+.icon-embed:before {
+    content: "";
+}
+._eYtD2XCVieq6emjKBH3m {
+    font-size: 14px !important;
+}
+.icon-coins_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-external_link_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-external_link:before {
+    content: "";
+}
+.D3IyhBGwXo9jPwz-Ka0Ve {
+    border-radius: 7px 7px 7px 7px !important;
+    margin-bottom: 4px;
+}
+._1G4yU68P50vRZ4USXfaceV {
+    border-radius: 7px 7px 7px 7px !important;
+}
+._1G4yU68P50vRZ4USXfaceV._2QeqBqfT5UbHBoViZUt-wX {
+    border-radius: 7px 7px 7px 7px !important;
+}
+._3Im6OD67aKo33nql4FpSp_ {
+    border-radius: 7px 7px 7px 7px !important;
+}
+button {
+    border-radius: 4px;
+    cursor: auto;
+font-size: 14px;
+font-family: Segoe UI Variable;
+font-style: normal;
+font-weight: 400 !important;
+line-height: 20px;
+height: 32px;
+}
+.HNozj_dKjQZ59ZsfEegz8 {
+    border-radius: 4px !important;
+    cursor: auto;
+font-size: 14px;
+font-family: Segoe UI Variable;
+font-style: normal;
+font-weight: 400 !important;
+line-height: 20px;
+text-transform: capitalize !important;
+}
+a.M2Hk_S2yvXpsNPfZMBMur.M2Hk_S2yvXpsNPfZMBMur:before {
+    border-radius: 4px;
+}
+.RvLtAcdRtbOQbhFB7MD_T {
+    border-radius: 4px;
+}
+._1Hw7tY9pMr-T1F4P1C-xNU {
+    border-radius: 4px;
+}
+.kU8ebCMnbXfjCWfqn0WPb {
+    border-radius: 4px;
+}
+._6_44iTtZoeY6_XChKt5b0,._70940WUuFmpHbhKlj8EjZ {
+text-transform: capitalize !important;
+overflow: visible;
+}
+._3-miAEojrCvx_4FQ8x3P-s .YszYBnnIoNY8pZ6UwCivd {
+    border-radius: 4px;
+}
+._2jJNpBqXMbbyOiGCElTYxZ {
+    border-radius: 7px;
+}
+.wBtTDilkW_rtT2k5x3eie {
+    border-radius: 7px;
+}
+.icon-notification_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-notification_frequent:before {
+    content: "";
+}
+.icon-notification_frequent_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-notification_off:before {
+    content: "";
+}
+.icon-notification_off_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-mod_queue_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-mod_mute:before {
+    content: "";
+}
+.icon-lock_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-approve_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-media_gallery:before {
+    content: "";
+}
+.icon-gif_post:before {
+    content: "";
+}
+.icon-admin_fill:before {
+    font-family: redesignFont2020;
+}
+._36kpXQ-z7Hr61j8878uRkP {
+    margin-bottom: 8px;
+}
+._1UoeAeSRhOKSNdY_h3iS1O {
+    font-weight: normal;
+    font-size: 14px;
+}
+._1rZYMD_4xY3gRcSS3p8ODO {
+    font-weight: 600;
+}
+._3ryJoIoycVkA88fy40qNJc {
+    font-weight: 600;
+}
+._1RYN-7H8gYctjOQeL8p2Q7 {
+    border-radius: 8px;
+}
+._3SUsITjKNQ7Tp0Wi2jGxIM.qW0l8Af61EP35WIG6vnGk {
+    border-radius: 999px;
+    cursor: auto
+}
+.Q0BxYHtCOJ_rNSPJMU2Y7._2fe-KdD2OM0ciaiux-G1EL {
+    border-radius: 999px;
+    cursor: auto;
+}
+.voteButton:focus {
+    border-radius: 999px;
+    background-color: var(--newCommunityTheme-navIconFaded10);
+    outline: none;
+}
+._loadingIcon_1px4d_27 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: calc(40% - 100px);
+    left: calc(50% - 100px);
+    content: url(https://www.avira.com/cache-buster-1687867779/static/avira/images/loading.svg);
+    animation: none;
+}
+
+/* Color styles */
+:root {
+--light---fill--color---text---primary: rgba(0, 0, 0, 0.8956000208854675);
+--light---fill--color---text---secondary: rgba(0, 0, 0, 0.6062999963760376);
+--light---fill--color---text---tertiary: rgba(0, 0, 0, 0.4458000063896179);
+--light---fill--color---text---disabled: rgba(0, 0, 0, 0.3614000082015991);
+--light---fill--color---accent--text---primary: rgba(0, 62, 146, 1);
+--light---fill--color---accent--text---secondary: rgba(0, 26, 104, 1);
+--light---fill--color---accent--text---tertiary: rgba(0, 95, 184, 1);
+--light---fill--color---accent--text---disabled: rgba(0, 0, 0, 0.3614000082015991);
+--light---fill--color---text--on--accent---primary: rgba(255, 255, 255, 1);
+--light---fill--color---text--on--accent---secondary: rgba(255, 255, 255, 0.699999988079071);
+--light---fill--color---text--on--accent---disabled: rgba(255, 255, 255, 1);
+--light---fill--color---text--on--accent---selected--text: rgba(255, 255, 255, 1);
+--light---fill--color---control---transparent: rgba(255, 255, 255, 0);
+--light---fill--color---control---default: rgba(255, 255, 255, 0.699999988079071);
+--light---fill--color---control---secondary: rgba(249, 249, 249, 0.5);
+--light---fill--color---control---tertiary: rgba(249, 249, 249, 0.30000001192092896);
+--light---fill--color---control---quarternary: rgba(243, 243, 243, 0.7599999904632568);
+--light---fill--color---control---input--active: rgba(255, 255, 255, 1);
+--light---fill--color---control---disabled: rgba(249, 249, 249, 0.30000001192092896);
+--light---fill--color---control--strong---default: rgba(0, 0, 0, 0.4458000063896179);
+--light---fill--color---control--strong---disabled: rgba(0, 0, 0, 0.3172999918460846);
+--light---fill--color---subtle---transparent: rgba(255, 255, 255, 0);
+--light---fill--color---subtle---secondary: rgba(0, 0, 0, 0.037300001829862595);
+--light---fill--color---subtle---tertiary: rgba(0, 0, 0, 0.02410000003874302);
+--light---fill--color---subtle---disabled: rgba(0, 0, 0, 0);
+--light---fill--color---control--solid---default: rgba(255, 255, 255, 1);
+--light---fill--color---control--alt---transparent: rgba(255, 255, 255, 0);
+--light---fill--color---control--alt---secondary: rgba(0, 0, 0, 0.02410000003874302);
+--light---fill--color---control--alt---tertiary: rgba(0, 0, 0, 0.05779999867081642);
+--light---fill--color---control--alt---quarternary: rgba(0, 0, 0, 0.09239999949932098);
+--light---fill--color---control--alt---disabled: rgba(255, 255, 255, 0);
+--light---fill--color---accent---default: rgba(0, 95, 184, 1);
+--light---fill--color---accent---secondary: rgba(0, 95, 184, 0.8999999761581421);
+--light---fill--color---accent---tertiary: rgba(0, 95, 184, 0.800000011920929);
+--light---fill--color---accent---disabled: rgba(0, 0, 0, 0.21690000593662262);
+--light---fill--color---accent---selected--text--background: rgba(0, 120, 212, 1);
+--light---fill--color---system---critical: rgba(196, 43, 28, 1);
+--light---fill--color---system---success: rgba(15, 123, 15, 1);
+--light---fill--color---system---attention: rgba(0, 95, 183, 1);
+--light---fill--color---system---caution: rgba(157, 93, 0, 1);
+--light---fill--color---system---attention--background: rgba(246, 246, 246, 0.5);
+--light---fill--color---system---success--background: rgba(223, 246, 221, 1);
+--light---fill--color---system---caution--background: rgba(255, 244, 206, 1);
+--light---fill--color---system---critical--background: rgba(253, 231, 233, 1);
+--light---fill--color---system---neutral: rgba(0, 0, 0, 0.4458000063896179);
+--light---fill--color---system---neutral--background: rgba(0, 0, 0, 0.02410000003874302);
+--light---fill--color---system---solid--neutral: rgba(138, 138, 138, 1);
+--light---fill--color---system-----solid--attention--background: rgba(247, 247, 247, 1);
+--light-----fill--color-----system-----solid--neutral--background: rgba(243, 243, 243, 1);
+--light---fill--color---control--on--image---default: rgba(255, 255, 255, 0.7900000214576721);
+--light---fill--color---control--on--image---secondary: rgba(243, 243, 243, 1);
+--light---fill--color---control--on--image---tertiary: rgba(235, 235, 235, 1);
+--light---fill--color---control--on--image---disabled: rgba(255, 255, 255, 0);
+--light---stroke--color---control--stroke---default: rgba(0, 0, 0, 0.05779999867081642);
+--light---stroke--color---control--stroke---secondary: rgba(0, 0, 0, 0.16220000386238098);
+--light---stroke--color---control--stroke---on--accent--default: rgba(255, 255, 255, 0.07999999821186066);
+--light---stroke--color---control--stroke---on--accent--secondary: rgba(0, 0, 0, 0.4000000059604645);
+--light---stroke--color---control--stroke---on--accent--tertiary: rgba(0, 0, 0, 0.21690000593662262);
+--light---stroke--color---control--stroke---on--accent--disabled: rgba(0, 0, 0, 0.05779999867081642);
+--light---stroke--color---control--stroke---for--strong--fill--when--on--image: rgba(255, 255, 255, 0.3499999940395355);
+--light---stroke--color---control--strong--stroke---default: rgba(0, 0, 0, 0.6062999963760376);
+--light---stroke--color---control--strong--stroke---disabled: rgba(0, 0, 0, 0.21690000593662262);
+--light---stroke--color---card--stroke---default: rgba(0, 0, 0, 0.05779999867081642);
+--light---stroke--color---card--stroke---default--solid: rgba(235, 235, 235, 1);
+--light---stroke--color---divider--stroke---default: rgba(0, 0, 0, 0.08030000329017639);
+--light---stroke--color---surface--stroke---default: rgba(117, 117, 117, 0.4000000059604645);
+--light---stroke--color---surface--stroke---flyout: rgba(0, 0, 0, 0.05779999867081642);
+--light---stroke--color---focus--stroke---outer: rgba(0, 0, 0, 0.8956000208854675);
+--light---stroke--color---focus--stroke---inner: rgba(255, 255, 255, 1);
+--light---background---fill--color---card--background---default: rgba(255, 255, 255, 0.699999988079071);
+--light---background---fill--color---card--background---secondary: rgba(246, 246, 246, 0.5);
+--light-----background-----fill--color-----card--background-----tertiary: rgba(255, 255, 255, 1);
+--light---background---fill--color---smoke---default: rgba(0, 0, 0, 0.30000001192092896);
+--light---background---fill--color---layer---default: rgba(255, 255, 255, 0.5);
+--light---background---fill--color---layer---alt: rgba(255, 255, 255, 1);
+--light---background---fill--color---layer--on--acrylic---default: rgba(255, 255, 255, 0.25);
+--light---background---fill--color---layer--on--accent--acrylic---default: rgba(255, 255, 255, 0.25);
+--light---background---fill--color---layer--on--mica--base--alt---default: rgba(255, 255, 255, 0.699999988079071);
+--light---background---fill--color---layer--on--mica--base--alt---transparent: rgba(255, 255, 255, 0);
+--light---background---fill--color---layer--on--mica--base--alt---secondary: rgba(0, 0, 0, 0.037300001829862595);
+--light---background---fill--color---layer--on--mica--base--alt---tertiary: rgba(249, 249, 249, 1);
+--light---background---fill--color---acrylic--background---default: rgba(252, 252, 252, 0.8500000238418579);
+--light---background---fill--color---acrylic--background---base: rgba(243, 243, 243, 0.8999999761581421);
+--light---background---fill--color---accent--acrylic--background---base: rgba(153, 235, 255, 0.8999999761581421);
+--light---background---fill--color---accent--acrylic--background---default: rgba(153, 235, 255, 0.8999999761581421);
+--light---background---fill--color---mica--background---base: rgba(243, 243, 243, 1);
+--light---background---fill--color---mica--background---base--alt: rgba(218, 218, 218, 1);
+--light---background---fill--color---solid--background---base: rgba(243, 243, 243, 1);
+--light---background---fill--color---solid--background---base--alt: rgba(218, 218, 218, 1);
+--light---background---fill--color---solid--background---secondary: rgba(238, 238, 238, 1);
+--light---background---fill--color---solid--background---tertiary: rgba(249, 249, 249, 1);
+--light---background---fill--color---solid--background---quarternary: rgba(255, 255, 255, 1);
+--light---background---fill--color---solid--background---quinary: rgba(253, 253, 253, 1);
+--light---background---fill--color---solid--background---senary: rgba(255, 255, 255, 1);
+--light---shell---fill--color---caption--close--text---primary: rgba(255, 255, 255, 1);
+--light---shell---fill--color---caption--close--text---secondary: rgba(255, 255, 255, 0.699999988079071);
+--light---shell---fill--color---caption--control--close--fill---primary: rgba(196, 43, 28, 1);
+--light---shell---fill--color---caption--control--close--fill---secondary: rgba(196, 43, 28, 0.8999999761581421);
+--light---shell---fill--color---keyboard--button--alt---default: rgba(255, 255, 255, 0.5);
+--light---shell---fill--color---keyboard--button--alt---secondary: rgba(255, 255, 255, 0.25);
+--light---shell---fill--color---keyboard--button--alt---tertiary: rgba(255, 255, 255, 0.125);
+--light---shell---fill--color---keyboard--button--alt---disabled: rgba(255, 255, 255, 0.125);
+--light---shell---fill--color---keyboard--button---default: rgba(255, 255, 255, 1);
+--light---shell---fill--color---keyboard--button---secondary: rgba(255, 255, 255, 0.75);
+--light---shell---fill--color---keyboard--button---tertiary: rgba(255, 255, 255, 0.5);
+--light---shell---fill--color---keyboard--button---disabled: rgba(255, 255, 255, 0.125);
+--light---shell---fill--color---taskbar--item--fill---primary: rgba(255, 255, 255, 0.699999988079071);
+--light---shell---fill--color---taskbar--item--fill---secondary: rgba(255, 255, 255, 0.5);
+--light---shell---fill--color---taskbar--item--fill---tertiary: rgba(255, 255, 255, 0.30000001192092896);
+--light---shell---fill--color---taskbar--item--fill---transparent: rgba(255, 255, 255, 0);
+--light---shell---fill--color---taskbar--item--indicator-----running: rgba(0, 0, 0, 0.4399999976158142);
+--light---shell---fill--color---subtle--item--fill---transparent: rgba(255, 255, 255, 0);
+--light---shell---fill--color---subtle--item--fill---secondary: rgba(255, 255, 255, 0.699999988079071);
+--light---shell---fill--color---subtle--item--fill---tertiary: rgba(255, 255, 255, 0.5);
+--light---shell---fill--color---shimmer--fill---primary: rgba(0, 0, 0, 0.02889999933540821);
+--light---shell---fill--color---shimmer--fill---secondary: rgba(0, 0, 0, 0.053700000047683716);
+--light---shell---fill--color---illustration--on--acrylic---primary: rgba(0, 0, 0, 0.10000000149011612);
+--light---shell---stroke--color---keyboard--button---primary: rgba(0, 0, 0, 0.05779999867081642);
+--light---shell---stroke--color---keyboard--button---secondary: rgba(0, 0, 0, 0.16220000386238098);
+--light---shell---stroke--color---taskbar--item--stroke---primary: rgba(0, 0, 0, 0.09000000357627869);
+--light---shell---stroke--color---taskbar--item--stroke---secondary: rgba(0, 0, 0, 0.05999999865889549);
+--light---shell---stroke--color---taskbar--item--stroke---tertiary: rgba(0, 0, 0, 0.029999999329447746);
+--light---shell---stroke--color---taskbar--item--stroke---quarternary: rgba(0, 0, 0, 0.019999999552965164);
+--light---shell---stroke--color---taskbar--item--stroke---quinary: rgba(0, 0, 0, 0.019999999552965164);
+--light---shell---stroke--color---illustration--on--acrylic--strong---primary: rgba(0, 0, 0, 0.4399999976158142);
+--light---shell---background---fill--color---card--background--on--thin--acrylic---default: rgba(246, 246, 246, 0.8999999761581421);
+--light---shell---background---fill--color---card--background--on--thin--acrylic-----secondary: rgba(249, 249, 249, 1);
+--light---shell---background---fill--color---layer--on--thin--acrylic---default: rgba(255, 255, 255, 0.25);
+--light---shell---background---fill--color---acrylic---thin--acrylic: rgba(211, 211, 211, 0.4399999976158142);
+--dark---fill--color---text---primary: rgba(255, 255, 255, 1);
+--dark---fill--color---text---secondary: rgba(255, 255, 255, 0.7860000133514404);
+--dark---fill--color---text---tertiary: rgba(255, 255, 255, 0.5442000031471252);
+--dark---fill--color---text---disabled: rgba(255, 255, 255, 0.3628000020980835);
+--dark---fill--color---accent--text---primary: rgba(153, 235, 255, 1);
+--dark---fill--color---accent--text---secondary: rgba(153, 235, 255, 1);
+--dark---fill--color---accent--text---tertiary: rgba(96, 205, 255, 1);
+--dark---fill--color---accent--text---disabled: rgba(255, 255, 255, 0.3628000020980835);
+--dark---fill--color---text--on--accent---primary: rgba(0, 0, 0, 1);
+--dark---fill--color---text--on--accent---secondary: rgba(0, 0, 0, 0.5);
+--dark---fill--color---text--on--accent---disabled: rgba(255, 255, 255, 0.5302000045776367);
+--dark---fill--color---text--on--accent---selected--text: rgba(255, 255, 255, 1);
+--dark---fill--color---control---transparent: rgba(255, 255, 255, 0);
+--dark---fill--color---control---default: rgba(255, 255, 255, 0.060499999672174454);
+--dark---fill--color---control---secondary: rgba(255, 255, 255, 0.08370000123977661);
+--dark---fill--color---control---tertiary: rgba(255, 255, 255, 0.032600000500679016);
+--dark---fill--color---control---quarternary: rgba(255, 255, 255, 0.060499999672174454);
+--dark---fill--color---control---disabled: rgba(255, 255, 255, 0.04190000146627426);
+--dark---fill--color---control---input--active: rgba(30, 30, 30, 0.699999988079071);
+--dark---fill--color---control--strong---default: rgba(255, 255, 255, 0.5442000031471252);
+--dark---fill--color---control--strong---disabled: rgba(255, 255, 255, 0.24650000035762787);
+--dark---fill--color---control--alt---transparent: rgba(255, 255, 255, 0);
+--dark---fill--color---control--alt---secondary: rgba(0, 0, 0, 0.10000000149011612);
+--dark---fill--color---control--alt---tertiary: rgba(255, 255, 255, 0.04190000146627426);
+--dark---fill--color---control--alt---quarternary: rgba(255, 255, 255, 0.0697999969124794);
+--dark---fill--color---control--alt---disabled: rgba(255, 255, 255, 0);
+--dark---fill--color---subtle---transparent: rgba(255, 255, 255, 0);
+--dark---fill--color---subtle---secondary: rgba(255, 255, 255, 0.060499999672174454);
+--dark---fill--color---subtle---tertiary: rgba(255, 255, 255, 0.04190000146627426);
+--dark---fill--color---subtle---disabled: rgba(255, 255, 255, 0);
+--dark---fill--color---accent---default: rgba(96, 205, 255, 1);
+--dark---fill--color---accent---secondary: rgba(96, 205, 255, 0.8999999761581421);
+--dark---fill--color---accent---tertiary: rgba(96, 205, 255, 0.800000011920929);
+--dark---fill--color---accent---disabled: rgba(255, 255, 255, 0.15809999406337738);
+--dark---fill--color---accent---selected--text--background: rgba(0, 120, 212, 1);
+--dark---fill--color---control--solid---default: rgba(69, 69, 69, 1);
+--dark---fill--color---system---critical: rgba(255, 153, 164, 1);
+--dark---fill--color---system---success: rgba(108, 203, 95, 1);
+--dark---fill--color---system---attention: rgba(96, 205, 255, 1);
+--dark---fill--color---system---caution: rgba(252, 225, 0, 1);
+--dark---fill--color---system---attention--background: rgba(255, 255, 255, 0.032600000500679016);
+--dark---fill--color---system---success--background: rgba(57, 61, 27, 1);
+--dark---fill--color---system---caution--background: rgba(67, 53, 25, 1);
+--dark---fill--color---system---critical--background: rgba(68, 39, 38, 1);
+--dark---fill--color---system---neutral: rgba(255, 255, 255, 0.5442000031471252);
+--dark---fill--color---system---neutral--background: rgba(255, 255, 255, 0.032600000500679016);
+--dark-----fill--color-----system-----solid--attention--background: rgba(46, 46, 46, 1);
+--dark-----fill--color-----system-----solid--neutral: rgba(157, 157, 157, 1);
+--dark-----fill--color-----system-----solid--neutral--background: rgba(46, 46, 46, 1);
+--dark---fill--color---control--on--image---default: rgba(28, 28, 28, 0.699999988079071);
+--dark---fill--color---control--on--image---secondary: rgba(26, 26, 26, 1);
+--dark---fill--color---control--on--image---tertiary: rgba(19, 19, 19, 1);
+--dark---fill--color---control--on--image---disabled: rgba(30, 30, 30, 0);
+--dark---stroke--color---control--stroke---default: rgba(255, 255, 255, 0.0697999969124794);
+--dark---stroke--color---control--stroke---on--accent--default: rgba(255, 255, 255, 0.07999999821186066);
+--dark---stroke--color---control--stroke---secondary: rgba(255, 255, 255, 0.09300000220537186);
+--dark---stroke--color---control--stroke---on--accent--secondary: rgba(0, 0, 0, 0.14000000059604645);
+--dark---stroke--color---control--stroke---on--accent--tertiary: rgba(0, 0, 0, 0.21690000593662262);
+--dark---stroke--color---control--stroke---on--accent--disabled: rgba(0, 0, 0, 0.20000000298023224);
+--dark---stroke--color---control--stroke---for--strong--fill--when--on--image: rgba(0, 0, 0, 0.41999998688697815);
+--dark---stroke--color---control--strong--stroke---default: rgba(255, 255, 255, 0.6047000288963318);
+--dark---stroke--color---control--strong--stroke---disabled: rgba(255, 255, 255, 0.15809999406337738);
+--dark---stroke--color---divider--stroke---default: rgba(255, 255, 255, 0.08370000123977661);
+--dark---stroke--color---surface--stroke---default: rgba(117, 117, 117, 0.4000000059604645);
+--dark---stroke--color---surface--stroke---flyout: rgba(0, 0, 0, 0.20000000298023224);
+--dark---stroke--color---card--stroke---default: rgba(0, 0, 0, 0.10000000149011612);
+--dark---stroke--color---card--stroke---default--solid: rgba(28, 28, 28, 1);
+--dark---stroke--color---focus--stroke---outer: rgba(255, 255, 255, 1);
+--dark---stroke--color---focus--stroke---inner: rgba(0, 0, 0, 0.699999988079071);
+--dark---background---fill--color---card--background---default: rgba(255, 255, 255, 0.05119999870657921);
+--dark---background---fill--color---card--background---secondary: rgba(255, 255, 255, 0.032600000500679016);
+--dark---background---fill--color---card--background---tertiary: rgba(255, 255, 255, 0.0697999969124794);
+--dark---background---fill--color---smoke---default: rgba(0, 0, 0, 0.30000001192092896);
+--dark---background---fill--color---layer---default: rgba(58, 58, 58, 0.30000001192092896);
+--dark---background---fill--color---layer---alt: rgba(255, 255, 255, 0.05380000174045563);
+--dark---background---fill--color---layer--on--acrylic---default: rgba(255, 255, 255, 0.03590000048279762);
+--dark---background---fill--color---layer-on--accent--acrylic---default: rgba(255, 255, 255, 0.03590000048279762);
+--dark---background---fill--color---acrylic--background---default: rgba(44, 44, 44, 0.9599999785423279);
+--dark---background---fill--color---acrylic--background---base: rgba(32, 32, 32, 0.9599999785423279);
+--dark---background---fill--color---accent--acrylic--background---base: rgba(0, 63, 146, 0.800000011920929);
+--dark---background---fill--color---accent--acrylic--background---default: rgba(0, 120, 212, 0.800000011920929);
+--dark---background---fill--color---layer--on--mica--base--alt---default: rgba(58, 58, 58, 0.44999998807907104);
+--dark---background---fill--color---layer--on--mica--base--alt---transparent: rgba(0, 0, 0, 0);
+--dark---background---fill--color---layer--on--mica--base--alt---secondary: rgba(255, 255, 255, 0.060499999672174454);
+--dark---background---fill--color---layer--on--mica--base--alt---tertiary: rgba(44, 44, 44, 1);
+--dark---background---fill--color---mica--background---base: rgba(32, 32, 32, 1);
+--dark---background---fill--color---mica--background---base--alt: rgba(10, 10, 10, 1);
+--dark---background---fill--color---solid--background---base: rgba(32, 32, 32, 1);
+--dark---background---fill--color---solid--background---base--alt: rgba(10, 10, 10, 1);
+--dark---background---fill--color---solid--background---secondary: rgba(28, 28, 28, 1);
+--dark---background---fill--color---solid--background---tertiary: rgba(40, 40, 40, 1);
+--dark---background---fill--color---solid--background---quarternary: rgba(44, 44, 44, 1);
+--dark---background---fill--color---solid--background---quinary: rgba(51, 51, 51, 1);
+--dark---background---fill--color---solid--background---senary: rgba(55, 55, 55, 1);
+--dark---shell---fill--color---caption--close--text---primary: rgba(255, 255, 255, 1);
+--dark---shell---fill--color---caption--close--text---secondary: rgba(255, 255, 255, 0.699999988079071);
+--dark---shell---fill--color---caption--control--close--fill---primary: rgba(196, 43, 28, 1);
+--dark---shell---fill--color---caption--control--close--fill---secondary: rgba(196, 43, 28, 0.8999999761581421);
+--dark---shell---fill--color---keyboard--button--alt---default: rgba(255, 255, 255, 0.0851999968290329);
+--dark---shell---fill--color---keyboard--button--alt---secondary: rgba(255, 255, 255, 0.12559999525547028);
+--dark---shell---fill--color---keyboard--button--alt---tertiary: rgba(255, 255, 255, 0.06729999929666519);
+--dark---shell---fill--color---keyboard--button--alt---disabled: rgba(255, 255, 255, 0.03590000048279762);
+--dark---shell---fill--color---keyboard--button---default: rgba(255, 255, 255, 0.12559999525547028);
+--dark---shell---fill--color---keyboard--button---secondary: rgba(255, 255, 255, 0.0851999968290329);
+--dark---shell---fill--color---keyboard--button---tertiary: rgba(255, 255, 255, 0.06729999929666519);
+--dark---shell---fill--color---keyboard--button---disabled: rgba(255, 255, 255, 0.03590000048279762);
+--dark---shell---fill--color---taskbar--item--fill---primary: rgba(255, 255, 255, 0.08370000123977661);
+--dark---shell---fill--color---taskbar--item--fill---secondary: rgba(255, 255, 255, 0.060499999672174454);
+--dark---shell---fill--color---taskbar--item--fill---tertiary: rgba(255, 255, 255, 0.04190000146627426);
+--dark---shell---fill--color---taskbar--item--fill---transparent: rgba(255, 255, 255, 0);
+--dark---shell---fill--color---taskbar--item--indicator-----running: rgba(255, 255, 255, 0.38999998569488525);
+--dark---shell---fill--color---subtle--item--fill---transparent: rgba(255, 255, 255, 0);
+--dark---shell---fill--color---subtle--item--fill---secondary: rgba(255, 255, 255, 0.060499999672174454);
+--dark---shell---fill--color---subtle--item--fill---tertiary: rgba(255, 255, 255, 0.04190000146627426);
+--dark---shell---fill--color---shimmer--fill---primary: rgba(255, 255, 255, 0.060499999672174454);
+--dark---shell---fill--color---shimmer--fill---secondary: rgba(255, 255, 255, 0.032600000500679016);
+--dark---shell---fill--color---illustration--on--acrylic---primary: rgba(255, 255, 255, 0.1599999964237213);
+--dark---shell---stroke--color---keyboard--button---primary: rgba(0, 0, 0, 0.15000000596046448);
+--dark---shell---stroke--color---keyboard--button---secondary: rgba(0, 0, 0, 0.30000001192092896);
+--dark---shell---stroke--color---taskbar--item--stroke---primary: rgba(255, 255, 255, 0.12559999525547028);
+--dark---shell---stroke--color---taskbar--item--stroke---secondary: rgba(255, 255, 255, 0.1023000031709671);
+--dark---shell---stroke--color---taskbar--item--stroke---tertiary: rgba(255, 255, 255, 0.08370000123977661);
+--dark---shell---stroke--color---taskbar--item--stroke---quarternary: rgba(255, 255, 255, 0.060499999672174454);
+--dark---shell---stroke--color---taskbar--item--stroke---quinary: rgba(255, 255, 255, 0.04190000146627426);
+--dark---shell---stroke--color---illustration--on--acrylic--strong---primary: rgba(255, 255, 255, 0.41999998688697815);
+--dark---shell---background---fill--color---card--background--on--thin--acrylic---default: rgba(0, 0, 0, 0.6499999761581421);
+--dark---shell---background---fill--color---card--background--on--thin--acrylic---secondary: rgba(0, 0, 0, 0.5249999761581421);
+--dark---shell---background---fill--color---layer--on--thin--acrylic---default: rgba(0, 0, 0, 0.20000000298023224);
+--dark---shell---background---fill--color---acrylic---thin--acrylic: rgba(84, 84, 84, 0.6399999856948853);
+--contrast---aquatic---window--text: rgba(255, 255, 255, 1);
+--contrast---aquatic---window: rgba(32, 32, 32, 1);
+--contrast---aquatic---highlight--text: rgba(38, 59, 80, 1);
+--contrast---aquatic---highlight: rgba(142, 227, 240, 1);
+--contrast---aquatic---button--text: rgba(255, 255, 255, 1);
+--contrast---aquatic---button: rgba(32, 32, 32, 1);
+--contrast---aquatic---hotlight: rgba(117, 233, 252, 1);
+--contrast---aquatic---gray--text: rgba(166, 166, 166, 1);
+--contrast---desert---window--text: rgba(61, 61, 61, 1);
+--contrast---desert---w-indow: rgba(255, 250, 239, 1);
+--contrast---desert---highlight--text: rgba(255, 245, 227, 1);
+--contrast---desert---highlight: rgba(144, 57, 9, 1);
+--contrast---desert---button--text: rgba(32, 32, 32, 1);
+--contrast---desert---button: rgba(255, 250, 239, 1);
+--contrast---desert---hotlight: rgba(28, 94, 117, 1);
+--contrast---desert---gray--text: rgba(103, 103, 103, 1);
+--contrast---dusk---window--text: rgba(255, 255, 255, 1);
+--contrast---dusk---window: rgba(45, 50, 54, 1);
+--contrast---dusk---highlight--text: rgba(33, 45, 59, 1);
+--contrast---dusk---highlight: rgba(171, 207, 242, 1);
+--contrast---dusk---button--text: rgba(182, 246, 240, 1);
+--contrast---dusk---button: rgba(45, 50, 54, 1);
+--contrast---dusk---hotlight: rgba(112, 235, 222, 1);
+--contrast---dusk---gray--text: rgba(166, 166, 166, 1);
+--contrast---night--sky---window--text: rgba(255, 255, 255, 1);
+--contrast---night--sky---window: rgba(0, 0, 0, 1);
+--contrast---night--sky---highlight--text: rgba(43, 43, 43, 1);
+--contrast---night--sky---highlight: rgba(214, 180, 253, 1);
+--contrast---night--sky---button--text: rgba(255, 238, 50, 1);
+--contrast---night--sky---button: rgba(0, 0, 0, 1);
+--contrast---night--sky---hotlight: rgba(128, 128, 255, 1);
+--contrast---night--sky---gray--text: rgba(166, 166, 166, 1);
+}
+/*Reddit's styles*/
+:root {
+    --newCommunityTheme-actionIcon: var(--light---fill--color---text---primary);
+    --newCommunityTheme-actionIconAlpha20: rgba(135,138,140,0.2);
+    --newCommunityTheme-actionIconAlpha50: rgba(135,138,140,0.5);
+    --newCommunityTheme-actionIconShaded80: #6c6e70;
+    --newCommunityTheme-actionIconTinted80: #9fa1a3;
+    --newCommunityTheme-active: #0079D3;
+    --newCommunityTheme-activeAlpha10: rgba(0,121,211,0.1);
+    --newCommunityTheme-activeAlpha20: rgba(0,121,211,0.2);
+    --newCommunityTheme-activeAlpha50: rgba(0,121,211,0.5);
+    --newCommunityTheme-activeLight60: #33a8ff;
+    --newCommunityTheme-activeShaded80: #0060a8;
+    --newCommunityTheme-activeShaded90: #006cbd;
+    --newCommunityTheme-activeTinted05: #f2f8fc;
+    --newCommunityTheme-backgroundImage: initial;
+    --newCommunityTheme-backgroundImagePosition: cover;
+    --newCommunityTheme-banner-backgroundColor: #33a8ff;
+    --newCommunityTheme-banner-backgroundImage: initial;
+    --newCommunityTheme-banner-backgroundImagePosition: cover;
+    --newCommunityTheme-banner-communityNameFormat: slashtag;
+    --newCommunityTheme-banner-height: 64;
+    --newCommunityTheme-banner-iconColor: #0079D3;
+    --newCommunityTheme-banner-iconDimensions-borderRadius: 24;
+    --newCommunityTheme-banner-iconDimensions-customSize: 32;
+    --newCommunityTheme-banner-iconDimensions-padding: 6;
+    --newCommunityTheme-banner-iconDimensions-size: 24;
+    --newCommunityTheme-banner-iconImage: initial;
+    --newCommunityTheme-banner-lineHeight: 38;
+    --newCommunityTheme-banner-positionedImage: initial;
+    --newCommunityTheme-banner-positionedImageAlignment: left;
+    --newCommunityTheme-banner-positionedImageHeight: 48;
+    --newCommunityTheme-banner-secondaryBannerPositionedImage: initial;
+    --newCommunityTheme-body: var(--light---background---fill--color---card--background---default);
+    --newCommunityTheme-bodyAlpha50: rgba(255,255,255,0.5);
+    --newCommunityTheme-bodyAlpha70: rgba(255,255,255,0.7);
+    --newCommunityTheme-bodyAlpha80: rgba(255,255,255,0.8);
+    --newCommunityTheme-bodyFade: #FFFFFF00;
+    --newCommunityTheme-bodyShaded80: #ccc;
+    --newCommunityTheme-bodyText: #1c1c1c;
+    --newCommunityTheme-bodyTextAlpha03: rgba(28,28,28,0.03);
+    --newCommunityTheme-bodyTextAlpha20: rgba(28,28,28,0.2);
+    --newCommunityTheme-bodyTextShaded20: #050505;
+    --newCommunityTheme-bodyTextTinted20: #d1d1d1;
+    --newCommunityTheme-bodyTinted50: #fff;
+    --newCommunityTheme-bodyTinted80: #fff;
+    --newCommunityTheme-button: var(--light---fill--color---accent---default);
+    --newCommunityTheme-buttonAlpha05: rgba(0,121,211,0.05);
+    --newCommunityTheme-buttonAlpha10: rgba(0,121,211,0.1);
+    --newCommunityTheme-buttonAlpha20: rgba(0,121,211,0.2);
+    --newCommunityTheme-buttonAlpha40: rgba(0,121,211,0.4);
+    --newCommunityTheme-buttonAlpha50: rgba(0,121,211,0.5);
+    --newCommunityTheme-buttonAlpha80: rgba(0,121,211,0.8);
+    --newCommunityTheme-buttonShaded80: #0060a8;
+    --newCommunityTheme-buttonTinted20: #cce4f6;
+    --newCommunityTheme-buttonTinted50: #7fbce9;
+    --newCommunityTheme-buttonTinted80: #3293db;
+    --newCommunityTheme-canvas: #DAE0E6;
+    --newCommunityTheme-canvasImgPosition: cover;
+    --newCommunityTheme-canvasImgUrl: initial;
+    --newCommunityTheme-checkbox: #000000;
+    --newCommunityTheme-errorText: #FF0000;
+    --newCommunityTheme-field: var(--light---fill--color---control---default);
+    --newCommunityTheme-fieldFade: #F6F7F800;
+    --newCommunityTheme-flair: #EDEFF1;
+    --newCommunityTheme-highlight: #e5f1fa;
+    --newCommunityTheme-inactive: #EDEFF1;
+    --newCommunityTheme-invertFilter: invert(0);
+    --newCommunityTheme-lightText: #FFFFFF;
+    --newCommunityTheme-lightTextAlpha75: rgba(255,255,255,0.75);
+    --newCommunityTheme-line: #EDEFF1;
+    --newCommunityTheme-lineShaded80: #bdbfc0;
+    --newCommunityTheme-lineShaded90: #d5d7d8;
+    --newCommunityTheme-lineShadedNinety: #d5d7d8;
+    --newCommunityTheme-linkText: var(--light---fill--color---accent--text---primary);
+    --newCommunityTheme-linkTextAlpha80: rgba(0,121,211,0.5);
+    --newCommunityTheme-linkTextShaded80: #0060a8;
+    --newCommunityTheme-linkTextTinted80: #3293db;
+    --newCommunityTheme-linkTextWithBody: #3f9ade;
+    --newCommunityTheme-menu: #FFFFFF;
+    --newCommunityTheme-menuActiveText: #0079D3;
+    --newCommunityTheme-menuButtonBackground-active: var(--light---fill--color---subtle---tertiary);
+    --newCommunityTheme-menuButtonBackground-focus: rgba(0,0,0,0.12);
+    --newCommunityTheme-menuButtonBackground-hover: rgba(0,0,0,0.04);
+    --newCommunityTheme-menuInactiveText: #0079D3;
+    --newCommunityTheme-metaText: var(--light---fill--color---text---secondary);
+    --newCommunityTheme-monospaceColor: #FF006D;
+    --newCommunityTheme-navBar-activeLink: #0079D3;
+    --newCommunityTheme-navBar-activeSubmenuCaret: #0079D3;
+    --newCommunityTheme-navBar-activeSubmenuLink: #0079D3;
+    --newCommunityTheme-navBar-backgroundColor: #dbf0ff;
+    --newCommunityTheme-navBar-backgroundImage: initial;
+    --newCommunityTheme-navBar-hoverLink: #0079D3;
+    --newCommunityTheme-navBar-inactiveLink: #0079D3;
+    --newCommunityTheme-navBar-inactiveSubmenuCaret: #33a8ff;
+    --newCommunityTheme-navBar-inactiveSubmenuLink: #33a8ff;
+    --newCommunityTheme-navBar-submenuBackgroundColor: #dbf0ff;
+    --newCommunityTheme-navIcon: var(--light---fill--color---text---primary);
+    --newRedditTheme-navIconFaded10: rgba(0, 0, 0, 0.037) !important;
+    --newCommunityTheme-nsfwBlocking-bgcolor: #edeff1;
+    --newCommunityTheme-nsfwBlocking-color: #030303;
+    --newCommunityTheme-nsfwBlocking-contentTitleBgColor: #f6f7f8;
+    --newCommunityTheme-nsfwBlocking-mainCtaBgColor: #fff;
+    --newCommunityTheme-orangeRed: #FF4500;
+    --newCommunityTheme-pageHeader: #0079D3;
+    --newCommunityTheme-placeholder: #d6d6d6;
+    --newCommunityTheme-placeholderImage: initial;
+    --newCommunityTheme-placeholderImagePosition: cover;
+    --newCommunityTheme-post: #FFFFFF;
+    --newCommunityTheme-postError: #ffe5e5;
+    --newCommunityTheme-postFlairText: #1A1A1B;
+    --newCommunityTheme-postIcon: #898989;
+    --newCommunityTheme-postLine: var(--dark---stroke--color---card--stroke---default);
+    --newCommunityTheme-postLineShaded80: #a3a3a3;
+    --newCommunityTheme-postLineShaded90: #b7b7b7;
+    --newCommunityTheme-postTinted20: #fff;
+    --newCommunityTheme-postTransparent20: rgba(255,255,255,0.8);
+    --newCommunityTheme-primaryButtonShadedEighty: #0060a8;
+    --newCommunityTheme-primaryButtonTintedEighty: #3293db;
+    --newCommunityTheme-primaryButtonTintedFifty: #7fbce9;
+    --newCommunityTheme-primaryButtonTintedSixty: #66aee4;
+    --newCommunityTheme-report: #fff7e5;
+    --newCommunityTheme-textTransparentizedEighty: rgba(26,26,27,0.2);
+    --newCommunityTheme-titleText: #222222;
+    --newCommunityTheme-voteIcons-downvoteActive: initial;
+    --newCommunityTheme-voteIcons-downvoteInactive: initial;
+    --newCommunityTheme-voteIcons-upvoteActive: initial;
+    --newCommunityTheme-voteIcons-upvoteInactive: initial;
+    --newCommunityTheme-voteText-base: #898989;
+    --newCommunityTheme-voteText-downvote: #7193FF;
+    --newCommunityTheme-voteText-downvoteShaded80: #5a75cc;
+    --newCommunityTheme-voteText-downvoteTinted80: #8da8ff;
+    --newCommunityTheme-voteText-upvote: #FF4500;
+    --newCommunityTheme-voteText-upvoteShaded80: #cc3700;
+    --newCommunityTheme-voteText-upvoteTinted80: #ff6a32;
+    --newCommunityTheme-widgetColors-lineColor: rgba(26,26,27,0.07);
+    --newCommunityTheme-widgetColors-sidebarWidgetBackgroundColor: #FFFFFF;
+    --newCommunityTheme-widgetColors-sidebarWidgetBorderColor: #ccc;
+    --newCommunityTheme-widgetColors-sidebarWidgetHeaderColor: #FFFFFF;
+    --newCommunityTheme-widgetColors-sidebarWidgetHeaderColorAlpha60: rgba(255,255,255,0.6);
+    --newCommunityTheme-widgetColors-sidebarWidgetTextColor: #1A1A1B;
+    --newCommunityTheme-widgetColors-sidebarWidgetTextColorShaded80: #141415;
+    --newCommunityTheme-widgetColors-sidebarWidgetTitleColor: #1A1A1B;
+    --newRedditTheme-actionIcon: #878A8C;
+    --newRedditTheme-actionIconAlpha20: rgba(135,138,140,0.2);
+    --newRedditTheme-actionIconAlpha50: rgba(135,138,140,0.5);
+    --newRedditTheme-actionIconShaded80: #6c6e70;
+    --newRedditTheme-actionIconTinted80: #9fa1a3;
+    --newRedditTheme-active: var(--light---fill--color---accent---default);
+    --newRedditTheme-activeAlpha10: rgba(36,160,237,0.1);
+    --newRedditTheme-activeAlpha20: rgba(36,160,237,0.2);
+    --newRedditTheme-activeAlpha50: rgba(36,160,237,0.5);
+    --newRedditTheme-activeLight60: #42adf0;
+    --newRedditTheme-activeShaded80: #1c80bd;
+    --newRedditTheme-activeShaded90: #2090d5;
+    --newRedditTheme-activeTinted05: #f4fafe;
+    --newRedditTheme-banner-backgroundColor: var(--light---fill--color---accent---default);
+    --newRedditTheme-banner-backgroundImage: initial;
+    --newRedditTheme-banner-backgroundImagePosition: cover;
+    --newRedditTheme-banner-communityNameFormat: slashtag;
+    --newRedditTheme-banner-height: 64;
+    --newRedditTheme-banner-iconColor: var(--light---fill--color---accent---default);
+    --newRedditTheme-banner-iconDimensions-borderRadius: 24;
+    --newRedditTheme-banner-iconDimensions-customSize: 32;
+    --newRedditTheme-banner-iconDimensions-padding: 6;
+    --newRedditTheme-banner-iconDimensions-size: 24;
+    --newRedditTheme-banner-iconImage: initial;
+    --newRedditTheme-banner-lineHeight: 38;
+    --newRedditTheme-banner-positionedImage: initial;
+    --newRedditTheme-banner-positionedImageAlignment: cover;
+    --newRedditTheme-banner-positionedImageHeight: 48;
+    --newRedditTheme-banner-secondaryBannerPositionedImage: initial;
+    --newRedditTheme-body: #FFFFFF;
+    --newRedditTheme-bodyAlpha50: rgba(255,255,255,0.5);
+    --newRedditTheme-bodyAlpha70: rgba(255,255,255,0.7);
+    --newRedditTheme-bodyAlpha80: rgba(255,255,255,0.8);
+    --newRedditTheme-bodyFade: #FFFFFF00;
+    --newRedditTheme-bodyShaded80: #ccc;
+    --newRedditTheme-bodyText: var(--light---fill--color---text---primary);
+    --newRedditTheme-bodyTextAlpha03: rgba(28,28,28,0.03);
+    --newRedditTheme-bodyTextAlpha20: rgba(28,28,28,0.2);
+    --newRedditTheme-bodyTextShaded20: #050505;
+    --newRedditTheme-bodyTextTinted20: #d1d1d1;
+    --newRedditTheme-bodyTinted50: #fff;
+    --newRedditTheme-bodyTinted80: #fff;
+    --newRedditTheme-button: var(--light---fill--color---accent---default);
+    --newRedditTheme-buttonAlpha05: rgba(0,121,211,0.05);
+    --newRedditTheme-buttonAlpha10: rgba(0,121,211,0.1);
+    --newRedditTheme-buttonAlpha20: rgba(0,121,211,0.2);
+    --newRedditTheme-buttonAlpha40: rgba(0,121,211,0.4);
+    --newRedditTheme-buttonAlpha50: rgba(0,121,211,0.5);
+    --newRedditTheme-buttonAlpha80: rgba(0,121,211,0.8);
+    --newRedditTheme-buttonShaded80: #0060a8;
+    --newRedditTheme-buttonTinted20: #cce4f6;
+    --newRedditTheme-buttonTinted50: #7fbce9;
+    --newRedditTheme-buttonTinted80: #3293db;
+    --newRedditTheme-canvas: #e800ff;
+    --newRedditTheme-checkbox: #000000;
+    --newRedditTheme-errorText: #FF0000;
+    --newRedditTheme-field: #F6F7F8;
+    --newRedditTheme-fieldFade: #F6F7F800;
+    --newRedditTheme-flair: #EDEFF1;
+    --newRedditTheme-highlight: #e9f5fd;
+    --newRedditTheme-inactive: #EDEFF1;
+    --newRedditTheme-invertFilter: invert(0);
+    --newRedditTheme-lightText: #FFFFFF;
+    --newRedditTheme-lightTextAlpha75: rgba(255,255,255,0.75);
+    --newRedditTheme-line: var(--light---stroke--color---control--stroke---default);
+    --newRedditTheme-lineShaded80: #bdbfc0;
+    --newRedditTheme-lineShaded90: #d5d7d8;
+    --newRedditTheme-linkText: #0079D3;
+    --newRedditTheme-linkTextAlpha80: rgba(0,121,211,0.5);
+    --newRedditTheme-linkTextShaded80: #0060a8;
+    --newRedditTheme-linkTextTinted80: #3293db;
+    --newRedditTheme-linkTextWithBody: #3f9ade;
+    --newRedditTheme-menu: #FFFFFF;
+    --newRedditTheme-menuActiveText: #0079D3;
+    --newRedditTheme-menuButtonBackground-active: rgba(0,0,0,0.08);
+    --newRedditTheme-menuButtonBackground-focus: rgba(0,0,0,0.12);
+    --newRedditTheme-menuButtonBackground-hover: rgba(0,0,0,0.04);
+    --newRedditTheme-menuInactiveText: #0079D3;
+    --newRedditTheme-metaText: #7c7c7c;
+    --newRedditTheme-metaTextAlpha50: rgba(120,124,126,0.5);
+    --newRedditTheme-metaTextShaded80: #606364;
+    --newRedditTheme-monospaceColor: #FF006D;
+    --newRedditTheme-navBar-activeLink: #E9F5FD;
+    --newRedditTheme-navBar-activeSubmenuCaret: var(--light---fill--color---accent---default);
+    --newRedditTheme-navBar-activeSubmenuLink: var(--light---fill--color---accent--text---primary);
+    --newRedditTheme-navBar-backgroundColor: var(--light---fill--color---accent---default);
+    --newRedditTheme-navBar-backgroundImage: initial;
+    --newRedditTheme-navBar-hoverLink: #E9F5FD;
+    --newRedditTheme-navBar-inactiveLink: #EDEFF1;
+    --newRedditTheme-navBar-inactiveSubmenuCaret: #42adf0;
+    --newRedditTheme-navBar-inactiveSubmenuLink: #42adf0;
+    --newRedditTheme-navBar-submenuBackgroundColor: #def1fc;
+    --newRedditTheme-navIcon: var(--light---fill--color---text---primary);
+    --newRedditTheme-navIconFaded10: rgba(26,26,27,0.1);
+    --newRedditTheme-nsfw: rgba(196, 43, 28, 1);
+    --newRedditTheme-nsfwBlocking-bgcolor: #edeff1;
+    --newRedditTheme-nsfwBlocking-color: #030303;
+    --newRedditTheme-nsfwBlocking-contentTitleBgColor: #f6f7f8;
+    --newRedditTheme-nsfwBlocking-mainCtaBgColor: #fff;
+    --newRedditTheme-orangeRed: rgba(0, 95, 184, 1);
+    --newRedditTheme-pageHeader: #0079D3;
+    --newRedditTheme-placeholder: #d6d6d6;
+    --newRedditTheme-post: #FFFFFF;
+    --newRedditTheme-postError: #ffe5e5;
+    --newRedditTheme-postFlairText: #1A1A1B;
+    --newRedditTheme-postIcon: #898989;
+    --newRedditTheme-postLine: var(--light---stroke--color---card--stroke---default);
+    --newRedditTheme-postLineShaded80: #a3a3a3;
+    --newRedditTheme-postLineShaded90: #b7b7b7;
+    --newRedditTheme-postTinted20: #fff;
+    --newRedditTheme-postTransparent20: rgba(255,255,255,0.8);
+    --newRedditTheme-quarantine: #ffb000;
+    --newRedditTheme-report: #fff7e5;
+    --newRedditTheme-search-syntaxHighlightBackgroundColor: #E9F5FD;
+    --newRedditTheme-search-syntaxHighlightColor: #1A1A1A;
+    --newRedditTheme-titleText: #1A1A1B;
+    --newRedditTheme-upsell-appleIcon: #000000;
+    --newRedditTheme-upsell-ssoButtonBorderColor: #D3D6DA;
+    --newRedditTheme-upsell-ssoButtonTextColor: #3D4043;
+    --newRedditTheme-voteIcons-downvoteActive: initial;
+    --newRedditTheme-voteIcons-downvoteInactive: initial;
+    --newRedditTheme-voteIcons-upvoteActive: initial;
+    --newRedditTheme-voteIcons-upvoteInactive: initial;
+    --newRedditTheme-voteText-base: #898989;
+    --newRedditTheme-voteText-downvote: #7193FF;
+    --newRedditTheme-voteText-downvoteShaded80: #5a75cc;
+    --newRedditTheme-voteText-downvoteTinted80: #8da8ff;
+    --newRedditTheme-voteText-upvote: #FF4500;
+    --newRedditTheme-voteText-upvoteShaded80: #cc3700;
+    --newRedditTheme-voteText-upvoteTinted80: #ff6a32;
+    --newRedditTheme-widgetColors-lineColor: rgba(26,26,27,0.07);
+    --newRedditTheme-widgetColors-sidebarWidgetBackgroundColor: var(--light---background---fill--color---card--background---default);
+    --newRedditTheme-widgetColors-sidebarWidgetBorderColor: var(--light---stroke--color---card--stroke---default);
+    --newRedditTheme-widgetColors-sidebarWidgetHeaderColor: #FFFFFF;
+    --newRedditTheme-widgetColors-sidebarWidgetHeaderColorAlpha60: rgba(255,255,255,0.6);
+    --newRedditTheme-widgetColors-sidebarWidgetTextColor: var(--light---fill--color---text---primary);
+    --newRedditTheme-widgetColors-sidebarWidgetTextColorShaded80: var(--light---fill--color---text---secondary);
+    --newRedditTheme-widgetColors-sidebarWidgetTitleColor: #1A1A1B;
+    --subredditContext-emojiHeight: initial;
+    --subredditContext-emojiWidth: initial;
+}
+._2DJXORCrmcNpPTSq0LqL6i {
+    background-color: var(--light---background---fill--color---smoke---default);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 50;
+}
+._1G4yU68P50vRZ4USXfaceV {
+    background-color: var(--light---background---fill--color---card--background---default);
+    color: var(--light---fill--color---text---primary);
+    fill: var(--light---fill--color---text---primary);
+    border: 1px solid var(--light---stroke--color---card--stroke---default);
+    border-radius: 4px;
+    overflow: visible;
+    word-wrap: break-word;
+}
+._3Im6OD67aKo33nql4FpSp_ {
+    border: 1px solid var(--light---stroke--color---card--stroke---default);
+}
+._2jJNpBqXMbbyOiGCElTYxZ {
+    background-color: var(--light---background---fill--color---card--background---default);
+    border-radius: 7px;
+    border: 1px solid var(--light---stroke--color---card--stroke---default);
+}
+._3-miAEojrCvx_4FQ8x3P-s .YszYBnnIoNY8pZ6UwCivd:focus, ._3-miAEojrCvx_4FQ8x3P-s .YszYBnnIoNY8pZ6UwCivd:hover {
+    background-color: var(--light---fill--color---subtle---secondary);
+    transition: 0.083s;
+}
+.kU8ebCMnbXfjCWfqn0WPb:focus, .kU8ebCMnbXfjCWfqn0WPb:hover {
+    background-color: var(--light---fill--color---subtle---secondary);
+    outline: none;
+    transition: 0.083s;
+}
+._1x6pySZ2CoUnAfsFhGe7J1:focus, ._1x6pySZ2CoUnAfsFhGe7J1:hover {
+    background-color: var(--light---fill--color---subtle---secondary);
+    outline: none;
+    transition: 0.083s;
+}
+._2pFdCpgBihIaYh9DSMWBIu.uMPgOFYlCc5uvpa2Lbteu:focus, ._2pFdCpgBihIaYh9DSMWBIu.uMPgOFYlCc5uvpa2Lbteu:hover {
+    background-color: var(--light---fill--color---subtle---secondary);
+    outline: none;
+    transition: 0.083s;
+}
+.PH-V9ggsF2mi5JTDmDqdR:focus, .PH-V9ggsF2mi5JTDmDqdR:hover {
+    background-color: var(--light---fill--color---subtle---secondary);
+    outline: none;
+    transition: 0.083s;
+}
+.h-jI8r2f9ozTNqu_2TBeY {
+    background-color: var(--light---fill--color---control---default);
+}
+    /*front page, r/all, r/popular*/ 
+/*Background1*/
+._31N0dvxfpsO6Ur5AKx4O5d,
+  ._3ozFtOe6WpJEMUtxDOIvtU,
+  ._1gVVmSnHZpkUgVShsn7-ua {
+        background: url(https://raw.githubusercontent.com/tobyisawesome/fluentreddit/main/RedditLight.png);
+        background-attachment:fixed;
+   }
+._1poyrkZ7g36PawDueRza-J {
+    background: transparent !important;
+    position: relative;
+}
+._1RYN-7H8gYctjOQeL8p2Q7 {
+    border-radius: 8px;
+    background: var(--light---background---fill--color---card--background---default)
+}
+._2vkeRJojnV7cb9pMlPHy7d.a35Fm2MurU14xdNybLiZp {
+backdrop-filter: blur(30px);
+}
+._1DeR7_QiQnu2UK0e2dDfYD {
+    background-color:rgba(255, 255, 255, 0.699999988079071) !important;
+}
+._1DeR7_QiQnu2UK0e2dDfYD ._1K7ubH9z5v9E6C19j2fjQU {
+    background-color: transparent;
+}
+._2lHXa-mLMsRfm1Q5JxgU4r, .REwsaLIz5u3DhM7zbbzIU, .bE7JgM2ex7W3aF3zci5bm, .FeLWdhOO-cVXowAo3Rndk, ._3Qkp11fjcAw9I9wtLo8frE {
+    background-color: var(--light---background---fill--color---card--background---default);
+}
+.lnK0-OzG7nLFydTWuXGcY {
+    letter-spacing: normal;
+}
+._10BQ7pjWbeYP63SAPNS8Ts {
+    position: relative;
+    background-color: var(--newCommunityTheme-button);
+    border: none;
+    color: var(--light---fill--color---text--on--accent---primary);
+    fill: var(--light---fill--color---text--on--accent---primary);
+}
+.NiNJXib52w4C8FUidB5af {
+border-radius: 4px !important;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+._3fbofimxVp_hpVM6I1TGMS, ._1pjbWqnK8P0fDmz8PgLxXY {
+border-radius: 4px !important;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+/* Define a slide-in animation */
+@keyframes slide-in {
+  from {
+    /* Start from the right edge of the screen */
+    transform: translateX(100%);
+  }
+  to {
+    /* End at the original position */
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the element */
+._1HSQGYlfPWzs40LP4_oFi5._1HSQGYlfPWzs40LP4_oFi5._2XkHtsPtFuTExJyk9JQUAp {
+    border-radius: 8px;
+    border: none;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 252px;
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 1px rgba(0, 0, 0, 0.0578);
+    backdrop-filter: blur(30px);
+    /* Add the animation name, duration and easing */
+    animation-name: slide-in;
+    animation-duration: 0.3s;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+}
+
+._1HSQGYlfPWzs40LP4_oFi5._1HSQGYlfPWzs40LP4_oFi5._2XkHtsPtFuTExJyk9JQUAp {
+    border-radius: 8px;
+    border: none;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 252px;
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 1px rgba(0, 0, 0, 0.0578);
+    backdrop-filter: blur(30px);
+}
+._3z4bYCMDgBrJ-Be0By6hNr {
+    color: var(--light---fill--color---text---secondary) !important;
+}
+._2XCnMY85ivEZUL6cAgK0nV {
+    box-sizing: border-box;
+    color: var(--light---fill--color---text---secondary) !important;
+}
+._3LwUIE7yX7CZQKmD2L87vf {
+    border: none !important;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+._2uYY-KeuYHKiwl-9aF0UiL {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 1px rgba(0, 0, 0, 0.0578);
+    color: var(--newCommunityTheme-bodyText);
+    overflow: hidden;
+    backdrop-filter: blur(30px);
+    position: absolute;
+    z-index: 10;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+._3LwUIE7yX7CZQKmD2L87vf {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    display: block;
+    padding: 8px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    color: var(--light---fill--color---text---primary);
+    fill: var(--light---fill--color---text---primary);
+}
+._3LwUIE7yX7CZQKmD2L87vf._1oYEKCssGFjqxQ9jJMNj5G:active, ._3LwUIE7yX7CZQKmD2L87vf._1oYEKCssGFjqxQ9jJMNj5G:focus, ._3LwUIE7yX7CZQKmD2L87vf._1oYEKCssGFjqxQ9jJMNj5G:hover {
+    color: var(--newRedditTheme-bodyText);
+    fill: var(--newRedditTheme-bodyText);
+    background-color: var(--light---fill--color---subtle---secondary);
+    transition: 0.083s;
+    outline: none;
+}
+._3fbofimxVp_hpVM6I1TGMS:hover {
+    background: var(--newCommunityTheme-menuButtonBackground-hover);
+    transition: 0.083s;
+}
+.nBh6t8H3UNZpI1Ce9s6yQ:hover {
+    background: var(--newCommunityTheme-menuButtonBackground-hover);
+    transition: 0.083s;
+}
+.NiNJXib52w4C8FUidB5af:hover {
+    background: var(--light---fill--color---subtle---secondary);
+    transition: 0.083s;
+}
+.NiNJXib52w4C8FUidB5af:focus {
+    background: var(--light---fill--color---subtle---tertiary);
+}
+._3fbofimxVp_hpVM6I1TGMS:focus {
+    background: var(--light---fill--color---subtle---tertiary);
+}
+._1HSQGYlfPWzs40LP4_oFi5._1HSQGYlfPWzs40LP4_oFi5._2XkHtsPtFuTExJyk9JQUAp {
+    border-radius: 8px;
+    border: none;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 252px;
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 1px rgba(0, 0, 0, 0.0578);
+    backdrop-filter: blur(30px);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn linear 83ms;
+}
+
+.fade-out {
+  animation: fadeOut linear 83ms;
+}
+
+._2uYY-KeuYHKiwl-9aF0UiL {
+    animation-name: fadeIn;
+    animation-duration: 83ms;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+}
+._1j2O3iNM1HoiXK7B2dmp7b {
+    background-color: transparent;
+}
+._3uIlo4RbXf8gjMYw0yP_Jj {
+    letter-spacing: normal;
+}
+._2vkeRJojnV7cb9pMlPHy7d.a35Fm2MurU14xdNybLiZp {
+    background-color: var(--newCommunityTheme-body);
+    border-bottom: 1px solid var(--light---stroke--color---divider--stroke---default);
+}
+}
