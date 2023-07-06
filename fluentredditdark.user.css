@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Reddit Dark
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    Fluent Reddit skin
 @author         Me
 ==/UserStyle== */
@@ -214,8 +214,7 @@ text-align: center;
     content: "";
 }
 .icon-star:before {
-    content: "";
-    font-family: FluentSystemIcons-filled;
+    content: "";
 }
 .icon-star_fill:before {
     content: "";
@@ -467,20 +466,51 @@ text-align: center;
 .icon-topic_videogaming:before {
     content: "";
 }
+.icon-topic_videogaming_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
 .icon-topic_sports:before {
     content: "";
+}
+.icon-topic_sports_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
 }
 .icon-topic_business:before {
     content: "";
 }
+.icon-topic_business_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
 .icon-topic_crypto:before {
     content: "";
+}
+.icon-topic_crypto_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
 }
 .icon-topic_television:before {
     content: "";
 }
+.icon-topic_television_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
 .icon-topic_celebrity:before {
     content: "";
+}
+.icon-topic_celebrity_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-custom_feed::before {
+	content: "";
+}
+.icon-custom_feed_fill::before {
+	content: "";
+    font-family: FluentSystemIcons-filled;
 }
 .icon-community_fill:before {
     content: "";
