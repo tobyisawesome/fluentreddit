@@ -15,11 +15,7 @@ You can see a live demo of the skin by installing the Stylus extension and apply
 
 ## Installation
 
-To use this skin, you need to install the Stylus extension for your browser:
-
-- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-- [Opera](https://addons.opera.com/en/extensions/details/stylus/)
+To use this skin, you need to install the Stylus extension for your browser.
 
 Then, you can install the fluentreddit.user.css file from this repository by clicking on the "Raw" button and following the instructions from Stylus.
 
