@@ -5,6 +5,12 @@
 
 A CSS skin for reddit.com that makes the website look closer to Fluent Design.
 
+## Requirements
+These fonts are required in order to have Fluent icons rendered properly.
+
+[Fluent System Icons Regular](https://github.com/microsoft/fluentui-system-icons/raw/main/fonts/FluentSystemIcons-Regular.ttf)
+
+[Fluent System Icons Filled](https://github.com/microsoft/fluentui-system-icons/raw/main/fonts/FluentSystemIcons-Filled.ttf)
 ## Download
 
 This style can be downloaded from the Userstyles.world links. Note that both light and dark mode versions need to be used separately.
