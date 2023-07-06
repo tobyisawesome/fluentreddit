@@ -1,6 +1,3 @@
-#This theme ONLY works in Light mode currently. A future theme that works with Dark mode may be made in the future.
-
-
 # Fluent Reddit
 
 A CSS skin for reddit.com that makes the website look closer to Fluent Design.
