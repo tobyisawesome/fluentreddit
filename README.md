@@ -23,6 +23,7 @@ Dark: https://userstyles.world/style/10782/fluent-reddit-dark
 
 - Modern and sleek design inspired by Fluent Design principles
 - Most icons updated to Fluent Icons.
+  
 ![image](https://github.com/tobyisawesome/fluentreddit/assets/71511385/3f24c1cb-00ad-49d0-934d-51121041a2d8)
 
 ## Installation
