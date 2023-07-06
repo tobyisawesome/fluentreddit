@@ -1,4 +1,5 @@
-![image](https://github.com/tobyisawesome/fluentreddit/assets/71511385/1e07c68c-29d7-41f2-a936-3fcdf286cd63)
+![image](https://github.com/tobyisawesome/fluentreddit/assets/71511385/e5e3aa1c-dccd-4a6c-bb7f-90022054c0f0)
+
 
 # Fluent Reddit
 
