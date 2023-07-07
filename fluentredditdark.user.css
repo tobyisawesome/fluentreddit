@@ -176,6 +176,10 @@ text-align: center;
 .icon-mod:before {
     content: "";
 }
+.icon-mod_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
 .icon-mod_queue:before {
     content: "";
 }
