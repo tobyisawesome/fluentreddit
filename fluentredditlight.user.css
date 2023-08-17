@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Fluent Reddit Light
 @namespace      github.com/openstyles/stylus
-@version        1.0.3
+@version        1.0.4
 @description    Fluent Reddit skin
 @author         Me
 ==/UserStyle== */
@@ -649,6 +649,17 @@ overflow: visible;
 }
 .icon-approve_fill:before {
     content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-comment_fill:before {
+    content: "";
+    font-family: FluentSystemIcons-filled;
+}
+.icon-reply:before {
+    content: "";
+}
+.icon-statistics_fill:before {
+    content: "";
     font-family: FluentSystemIcons-filled;
 }
 .icon-media_gallery:before {
